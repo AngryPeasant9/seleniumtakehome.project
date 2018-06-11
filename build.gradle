@@ -1,0 +1,20 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useTestNG()
+}
+
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.12.0'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.12.0'
+    testCompile 'org.testng:testng:6.10'
+    testCompile group: 'org.json', name: 'json', version: '20090211'
+}
+

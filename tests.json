@@ -1,0 +1,13 @@
+{
+  "Tests":
+    [
+      {
+        "username": "exampleUser1@example.com",
+        "password": "examplePass1"
+      },
+      {
+        "username": "exampleUser2@example.com",
+        "password": "examplePass2"
+      }
+    ]
+}
