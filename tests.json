@@ -2,12 +2,12 @@
   "Tests":
     [
       {
-        "username": "exampleUser1@example.com",
-        "password": "examplePass1"
+        "username": "example1@example1.com",
+        "password": "example1"
       },
       {
-        "username": "exampleUser2@example.com",
-        "password": "examplePass2"
+        "username": "example2@example2.com",
+        "password": "example2"
       }
     ]
 }
