@@ -11,7 +11,7 @@ Dependencies:
   Otherwise you'll need to follow the instructions here to install manually. https://docs.gradle.org/current/userguide/installation.html#sec:prerequisites
 
 To Run:
- * Simply download, extract, and cd to the project directory with cmdprompt and run "gradle test".
+ * Simply download, extract, and cd to the project directory with cmdprompt and run "gradle build" and "gradle test".
  * By default, since the original json usernames and passwords are all failing logins you won't be able to login and it will fail.
  * To Test real functioning logins just replace the example usernames and passwords or add more in the tests.json file located in the root of the project.
 
